@@ -3,7 +3,7 @@ const faunadb = require('faunadb');
 const q = faunadb.query;
 
 const client = new faunadb.Client({
-  secret: 'chave-secreta',
+  secret: 'key',
 });
 
 const createContact = (data) => {
